@@ -176,7 +176,7 @@ const Delivery = () => {
                     {/* Map with Static Marker */}
                     <div className="relative bg-gray-50 rounded-lg overflow-hidden border border-gray-200 h-[500px]">
                       <img 
-                        src={`https://maps.googleapis.com/maps/api/staticmap?center=${deliveryProgress.currentLocation.lat},${deliveryProgress.currentLocation.lng}&zoom=15&size=600x500&maptype=roadmap&markers=color:purple%7C${deliveryProgress.currentLocation.lat},${deliveryProgress.currentLocation.lng}&key=AIzaSyCJiWKfJLquaZ1yfysy3xns0BBgua-nNW4`}
+                        src={`https://maps.googleapis.com/maps/api/staticmap?center=${deliveryProgress.currentLocation.lat},${deliveryProgress.currentLocation.lng}&zoom=15&size=600x500&maptype=roadmap&markers=color:purple%7C${deliveryProgress.currentLocation.lat},${deliveryProgress.currentLocation.lng}&key=YOUR_KEY`}
                         alt="Delivery Location"
                         className="w-full h-full object-cover"
                       />
