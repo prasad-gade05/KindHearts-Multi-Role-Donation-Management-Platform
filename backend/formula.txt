@@ -1,0 +1,9 @@
+use 2.0 flash
+
+Score=w1×demand_score(i)+w2×past_interactions(D,i)+w3×distance(D,i)
+
+w1 is how much institute needs item so 0 if institute did not demand and quantity wise the weight increases 0.5
+
+w2 how much past donations were made 0.3
+
+w3 distance(physical) between the donor and the institute -0.2 

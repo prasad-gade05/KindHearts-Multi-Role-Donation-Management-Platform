@@ -1,0 +1,7 @@
+done use latest gemini
+done cosine similarity  
+parameters of gemini 
+	1 million token context window
+	20 billion
+not applicable here as it is only applicable for numerical pearson similarity
+hyperparameter did not have time to implement a ml model from scratch  
